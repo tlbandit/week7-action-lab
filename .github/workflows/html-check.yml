@@ -19,3 +19,5 @@ jobs:
 
       - name: Check h1 tag
         run: grep -q "<h1>" index.html
+      - name: Check lang attribute
+        run: grep -q '<html lang="ko">' index.html 
